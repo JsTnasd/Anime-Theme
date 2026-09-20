@@ -4076,13 +4076,21 @@ code {
 /* SERVER ACRONYMS — visible even when the server has no image */
 [class*="acronym_"] {
   color: var(--server-acronym-color, #ffffff) !important;
+  -webkit-text-fill-color: var(--server-acronym-color, #ffffff) !important;
   opacity: 1 !important;
   visibility: visible !important;
-  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9);
+  filter: none !important;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.9) !important;
 }
 
 [class*="icon_"]:has([class*="acronym_"]),
 [class*="childWrapper_"]:has([class*="acronym_"]) {
   color: var(--server-acronym-color, #ffffff) !important;
-  background: var(--server-acronym-background, rgba(255, 255, 255, 0.1)) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  filter: none !important;
+  background: var(
+    --server-acronym-background,
+    rgba(255, 255, 255, 0.12)
+  ) !important;
 }
