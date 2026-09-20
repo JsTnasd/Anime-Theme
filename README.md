@@ -1,37 +1,25 @@
-# Noir Glass
-
-A monochrome glass theme for Discord with transparent panels, smooth animations and three selectable wallpapers.
+# Anime Theme
 
 ## Preview
 
 ### Wallpaper 1
 
-![Noir Glass with wallpaper 1](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper1.png)
+![wallpaper 1](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper1.png)
 
 ### Wallpaper 2
 
-![Noir Glass with wallpaper 2](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper2.png)
+![wallpaper 2](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper2.png)
 
 ### Wallpaper 3
 
-![Noir Glass with wallpaper 3](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper3.png)
-
-## Features
-
-- Monochrome black-and-white appearance
-- Transparent glass-style panels
-- Three included wallpapers
-- Responsive wallpaper scaling for different screen sizes
-- Improved channel, mention and server visibility
-- Smooth message, popout, button and server animations
-- Reduced-motion support
+![wallpaper 3](https://res.cloudinary.com/bfyniy76/image/upload/v1789947614/wallpaper3.png)
 
 ## Installation
 
 1. Download `Anime-theme.css` from this repository.
 2. Move it into your Discord client's themes folder.
 3. Open your client's theme settings.
-4. Enable **Noir Glass**.
+4. Enable.
 
 The theme file imports `main.css` automatically, so both files must remain available in this repository.
 
@@ -79,27 +67,6 @@ Replace `YOUR_CUSTOM_WALLPAPER_URL` with a direct image URL. The URL should poin
 
 The wallpaper automatically adapts to the user's window and screen size with these settings:
 
-```css
---background-position: center center;
---background-size: cover;
---background-attachment: fixed;
-```
-
 `cover` fills the entire Discord window while maintaining the image's aspect ratio. Depending on the screen shape, a small part of the image may be cropped.
-
-## Repository Files
-
-- `Anime-theme.css` — theme metadata, wallpapers, colors and personal customization
-- `main.css` — core interface styles and animations
-- `README.md` — installation and customization instructions
-- `LICENSE` — project and third-party licensing information
-
-## Updating
-
-Changes made to the hosted `main.css` are loaded automatically by the theme. If an update does not appear immediately, reload Discord with `Ctrl + R` or restart the client.
-
-## License
-
-This project contains modified portions of ClearVision v7 licensed under Apache-2.0. Keep the required copyright and license notices when redistributing modified versions.
 
 
