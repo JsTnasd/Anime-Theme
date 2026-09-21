@@ -16,12 +16,14 @@
 
 ## Installation
 
-1. Download `Anime-theme.css` from this repository.
-2. Move it into your Discord client's themes folder.
-3. Open your client's theme settings.
-4. Enable.
+1. Download `AnimeTheme.theme.css` from this repository.
+2. Press `Win + R`.
+3. Open `%appdata%\betterdiscord\themes`.
+4. Move `AnimeTheme.theme.css` into that folder.
+5. Open Discord and go to **Settings → Themes**.
+6. Enable **Anime Theme**.
 
-The theme file imports `main.css` automatically, so both files must remain available in this repository.
+Only `AnimeTheme.theme.css` needs to be downloaded. It automatically imports the hosted `main.css` file.
 
 ## Selecting a Wallpaper
 
